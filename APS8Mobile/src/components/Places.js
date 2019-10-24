@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
 
-import { View } from 'react-native';
+import { View,Text } from 'react-native';
 
-export default class PLaces extends Component {
+export default class Places extends Component {
   render() {
-    return <View />;
+    return (
+      <View>
+         <Text>Places</Text>
+      </View>
+      )
   }
 }
