@@ -16,10 +16,10 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* APS8MobileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* APS8MobileTests.m */; };
-		33188306EBE0F2A01263793F /* libPods-APS8Mobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E822780FC6C5B1076091B7B /* libPods-APS8Mobile.a */; };
-		4A2F93B185CDB003B67B93AF /* libPods-APS8MobileTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D44005713AEB3A8DDC55431B /* libPods-APS8MobileTests.a */; };
-		713B229C817B89B611F8D691 /* libPods-APS8Mobile-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DF6F38A34C22B92BE69F2A1 /* libPods-APS8Mobile-tvOS.a */; };
-		A2A41DBDC6ABEDCC4A180CFE /* libPods-APS8Mobile-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FD5E92C2C2E9C7C0867102F /* libPods-APS8Mobile-tvOSTests.a */; };
+		3B0155BBF73C351F893F1EF4 /* libPods-APS8MobileTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F406DE59FB66B4535F7425E8 /* libPods-APS8MobileTests.a */; };
+		51EE8FACA53233C73384A636 /* libPods-APS8Mobile-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1DA3AA205DC09A7C8A82F8 /* libPods-APS8Mobile-tvOS.a */; };
+		7B6C12D3463AA6CFEA26FE8D /* libPods-APS8Mobile-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F28C2BCF368409465402E64 /* libPods-APS8Mobile-tvOSTests.a */; };
+		99F38F5096034D7FACDF414E /* libPods-APS8Mobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3443E883F0D00D3E3522B9EC /* libPods-APS8Mobile.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +44,7 @@
 		00E356EE1AD99517003FC87E /* APS8MobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APS8MobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* APS8MobileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APS8MobileTests.m; sourceTree = "<group>"; };
+		0349D516BB31712AB6B9B545 /* Pods-APS8Mobile-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APS8Mobile-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-APS8Mobile-tvOSTests/Pods-APS8Mobile-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* APS8Mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APS8Mobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = APS8Mobile/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = APS8Mobile/AppDelegate.m; sourceTree = "<group>"; };
@@ -51,22 +52,21 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = APS8Mobile/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = APS8Mobile/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = APS8Mobile/main.m; sourceTree = "<group>"; };
+		2495A3A1B72C66412A13F7D1 /* Pods-APS8Mobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APS8Mobile.release.xcconfig"; path = "Target Support Files/Pods-APS8Mobile/Pods-APS8Mobile.release.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* APS8Mobile-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "APS8Mobile-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* APS8Mobile-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "APS8Mobile-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		37CD39F955558349DA36D83C /* Pods-APS8Mobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APS8Mobile.release.xcconfig"; path = "Target Support Files/Pods-APS8Mobile/Pods-APS8Mobile.release.xcconfig"; sourceTree = "<group>"; };
-		40284297DCBA4F8699DE8DB2 /* Pods-APS8MobileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APS8MobileTests.debug.xcconfig"; path = "Target Support Files/Pods-APS8MobileTests/Pods-APS8MobileTests.debug.xcconfig"; sourceTree = "<group>"; };
-		4554A6ECA21667C6F6ADCCFE /* Pods-APS8Mobile-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APS8Mobile-tvOS.release.xcconfig"; path = "Target Support Files/Pods-APS8Mobile-tvOS/Pods-APS8Mobile-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		5DF6F38A34C22B92BE69F2A1 /* libPods-APS8Mobile-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-APS8Mobile-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6157FCBA19C39C8139DB191C /* Pods-APS8Mobile-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APS8Mobile-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-APS8Mobile-tvOSTests/Pods-APS8Mobile-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		6FD5E92C2C2E9C7C0867102F /* libPods-APS8Mobile-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-APS8Mobile-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7E822780FC6C5B1076091B7B /* libPods-APS8Mobile.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-APS8Mobile.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD42DECEF4A44449B0D67D44 /* Pods-APS8MobileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APS8MobileTests.release.xcconfig"; path = "Target Support Files/Pods-APS8MobileTests/Pods-APS8MobileTests.release.xcconfig"; sourceTree = "<group>"; };
-		D44005713AEB3A8DDC55431B /* libPods-APS8MobileTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-APS8MobileTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D8025BBB598E8A6B1A1ED9BE /* Pods-APS8Mobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APS8Mobile.debug.xcconfig"; path = "Target Support Files/Pods-APS8Mobile/Pods-APS8Mobile.debug.xcconfig"; sourceTree = "<group>"; };
-		DB4FDB54B986BA268B1FAEE7 /* Pods-APS8Mobile-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APS8Mobile-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-APS8Mobile-tvOSTests/Pods-APS8Mobile-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		E0AE794AC93F92CEB9F574B6 /* Pods-APS8Mobile-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APS8Mobile-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-APS8Mobile-tvOS/Pods-APS8Mobile-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		3443E883F0D00D3E3522B9EC /* libPods-APS8Mobile.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-APS8Mobile.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B20C97C6B79FC206461927E /* Pods-APS8Mobile-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APS8Mobile-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-APS8Mobile-tvOSTests/Pods-APS8Mobile-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5C828EE4B0CA2AF9BE1B2215 /* Pods-APS8Mobile-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APS8Mobile-tvOS.release.xcconfig"; path = "Target Support Files/Pods-APS8Mobile-tvOS/Pods-APS8Mobile-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		6F28C2BCF368409465402E64 /* libPods-APS8Mobile-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-APS8Mobile-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		761D15FD2497298AA91AD1FE /* Pods-APS8Mobile-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APS8Mobile-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-APS8Mobile-tvOS/Pods-APS8Mobile-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		9FA4263874E9DA1330E51B62 /* Pods-APS8MobileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APS8MobileTests.release.xcconfig"; path = "Target Support Files/Pods-APS8MobileTests/Pods-APS8MobileTests.release.xcconfig"; sourceTree = "<group>"; };
+		BF1DA3AA205DC09A7C8A82F8 /* libPods-APS8Mobile-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-APS8Mobile-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCC5AECCD9B4908DE4373F0E /* Pods-APS8MobileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APS8MobileTests.debug.xcconfig"; path = "Target Support Files/Pods-APS8MobileTests/Pods-APS8MobileTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		F406DE59FB66B4535F7425E8 /* libPods-APS8MobileTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-APS8MobileTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE1C80C4E7E70936A84CA26E /* Pods-APS8Mobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APS8Mobile.debug.xcconfig"; path = "Target Support Files/Pods-APS8Mobile/Pods-APS8Mobile.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A2F93B185CDB003B67B93AF /* libPods-APS8MobileTests.a in Frameworks */,
+				3B0155BBF73C351F893F1EF4 /* libPods-APS8MobileTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33188306EBE0F2A01263793F /* libPods-APS8Mobile.a in Frameworks */,
+				99F38F5096034D7FACDF414E /* libPods-APS8Mobile.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				713B229C817B89B611F8D691 /* libPods-APS8Mobile-tvOS.a in Frameworks */,
+				51EE8FACA53233C73384A636 /* libPods-APS8Mobile-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2A41DBDC6ABEDCC4A180CFE /* libPods-APS8Mobile-tvOSTests.a in Frameworks */,
+				7B6C12D3463AA6CFEA26FE8D /* libPods-APS8Mobile-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,28 +141,12 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				7E822780FC6C5B1076091B7B /* libPods-APS8Mobile.a */,
-				5DF6F38A34C22B92BE69F2A1 /* libPods-APS8Mobile-tvOS.a */,
-				6FD5E92C2C2E9C7C0867102F /* libPods-APS8Mobile-tvOSTests.a */,
-				D44005713AEB3A8DDC55431B /* libPods-APS8MobileTests.a */,
+				3443E883F0D00D3E3522B9EC /* libPods-APS8Mobile.a */,
+				BF1DA3AA205DC09A7C8A82F8 /* libPods-APS8Mobile-tvOS.a */,
+				6F28C2BCF368409465402E64 /* libPods-APS8Mobile-tvOSTests.a */,
+				F406DE59FB66B4535F7425E8 /* libPods-APS8MobileTests.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		707BD156226F84636D90BC28 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D8025BBB598E8A6B1A1ED9BE /* Pods-APS8Mobile.debug.xcconfig */,
-				37CD39F955558349DA36D83C /* Pods-APS8Mobile.release.xcconfig */,
-				E0AE794AC93F92CEB9F574B6 /* Pods-APS8Mobile-tvOS.debug.xcconfig */,
-				4554A6ECA21667C6F6ADCCFE /* Pods-APS8Mobile-tvOS.release.xcconfig */,
-				DB4FDB54B986BA268B1FAEE7 /* Pods-APS8Mobile-tvOSTests.debug.xcconfig */,
-				6157FCBA19C39C8139DB191C /* Pods-APS8Mobile-tvOSTests.release.xcconfig */,
-				40284297DCBA4F8699DE8DB2 /* Pods-APS8MobileTests.debug.xcconfig */,
-				CD42DECEF4A44449B0D67D44 /* Pods-APS8MobileTests.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -180,7 +164,7 @@
 				00E356EF1AD99517003FC87E /* APS8MobileTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				707BD156226F84636D90BC28 /* Pods */,
+				8CDC3CB885EC170E568FF341 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -198,6 +182,22 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		8CDC3CB885EC170E568FF341 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE1C80C4E7E70936A84CA26E /* Pods-APS8Mobile.debug.xcconfig */,
+				2495A3A1B72C66412A13F7D1 /* Pods-APS8Mobile.release.xcconfig */,
+				761D15FD2497298AA91AD1FE /* Pods-APS8Mobile-tvOS.debug.xcconfig */,
+				5C828EE4B0CA2AF9BE1B2215 /* Pods-APS8Mobile-tvOS.release.xcconfig */,
+				3B20C97C6B79FC206461927E /* Pods-APS8Mobile-tvOSTests.debug.xcconfig */,
+				0349D516BB31712AB6B9B545 /* Pods-APS8Mobile-tvOSTests.release.xcconfig */,
+				DCC5AECCD9B4908DE4373F0E /* Pods-APS8MobileTests.debug.xcconfig */,
+				9FA4263874E9DA1330E51B62 /* Pods-APS8MobileTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -205,7 +205,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "APS8MobileTests" */;
 			buildPhases = (
-				1EAA74FF6F28E4B5414D75E6 /* [CP] Check Pods Manifest.lock */,
+				B9FF99B47379E8BCEA8FC3AD /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
@@ -224,12 +224,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "APS8Mobile" */;
 			buildPhases = (
-				C865E999AFCB80CB7E88C13E /* [CP] Check Pods Manifest.lock */,
+				80023B78AC8B566102E68DEE /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				CB0173BDD5D1105947CCF544 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,7 +245,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "APS8Mobile-tvOS" */;
 			buildPhases = (
-				F322DDBDB058031EEAD81AB2 /* [CP] Check Pods Manifest.lock */,
+				C0C52CCFCA55013BDA4DF028 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -264,7 +265,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "APS8Mobile-tvOSTests" */;
 			buildPhases = (
-				52E71FF89635A60337419FBD /* [CP] Check Pods Manifest.lock */,
+				C926071F4FFC6E050D034F86 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -373,28 +374,6 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		1EAA74FF6F28E4B5414D75E6 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-APS8MobileTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -409,29 +388,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		52E71FF89635A60337419FBD /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-APS8Mobile-tvOSTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C865E999AFCB80CB7E88C13E /* [CP] Check Pods Manifest.lock */ = {
+		80023B78AC8B566102E68DEE /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -453,7 +410,29 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F322DDBDB058031EEAD81AB2 /* [CP] Check Pods Manifest.lock */ = {
+		B9FF99B47379E8BCEA8FC3AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-APS8MobileTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0C52CCFCA55013BDA4DF028 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -473,6 +452,46 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C926071F4FFC6E050D034F86 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-APS8Mobile-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB0173BDD5D1105947CCF544 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-APS8Mobile/Pods-APS8Mobile-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-APS8Mobile/Pods-APS8Mobile-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -580,7 +599,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 40284297DCBA4F8699DE8DB2 /* Pods-APS8MobileTests.debug.xcconfig */;
+			baseConfigurationReference = DCC5AECCD9B4908DE4373F0E /* Pods-APS8MobileTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -603,7 +622,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CD42DECEF4A44449B0D67D44 /* Pods-APS8MobileTests.release.xcconfig */;
+			baseConfigurationReference = 9FA4263874E9DA1330E51B62 /* Pods-APS8MobileTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -623,7 +642,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D8025BBB598E8A6B1A1ED9BE /* Pods-APS8Mobile.debug.xcconfig */;
+			baseConfigurationReference = FE1C80C4E7E70936A84CA26E /* Pods-APS8Mobile.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -643,7 +662,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 37CD39F955558349DA36D83C /* Pods-APS8Mobile.release.xcconfig */;
+			baseConfigurationReference = 2495A3A1B72C66412A13F7D1 /* Pods-APS8Mobile.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -662,7 +681,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E0AE794AC93F92CEB9F574B6 /* Pods-APS8Mobile-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 761D15FD2497298AA91AD1FE /* Pods-APS8Mobile-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -690,7 +709,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4554A6ECA21667C6F6ADCCFE /* Pods-APS8Mobile-tvOS.release.xcconfig */;
+			baseConfigurationReference = 5C828EE4B0CA2AF9BE1B2215 /* Pods-APS8Mobile-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -718,7 +737,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DB4FDB54B986BA268B1FAEE7 /* Pods-APS8Mobile-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 3B20C97C6B79FC206461927E /* Pods-APS8Mobile-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -745,7 +764,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6157FCBA19C39C8139DB191C /* Pods-APS8Mobile-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 0349D516BB31712AB6B9B545 /* Pods-APS8Mobile-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;

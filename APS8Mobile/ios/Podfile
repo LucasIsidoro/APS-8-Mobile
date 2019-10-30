@@ -1,6 +1,14 @@
 platform :ios, '9.0'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
+post_install do |pi|
+  pi.pods_project.targets.each do |t|
+      t.build_configurations.each do |config|
+          config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '9.0'
+      end
+  end
+end
+
 target 'APS8Mobile' do
   # Pods for APS8Mobile
   pod 'FBLazyVector', :path => "../node_modules/react-native/Libraries/FBLazyVector"
@@ -34,11 +42,18 @@ target 'APS8Mobile' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
+
   target 'APS8MobileTests' do
     inherit! :search_paths
     # Pods for testing
   end
 
+  # React Native Maps dependencies
+  rn_maps_path = '../node_modules/react-native-maps'
+  pod 'react-native-google-maps', :path => rn_maps_path
+  pod 'GoogleMaps'
+  pod 'Google-Maps-iOS-Utils'
+  
   use_native_modules!
 end
 
