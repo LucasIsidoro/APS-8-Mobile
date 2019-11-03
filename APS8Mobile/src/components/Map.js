@@ -43,19 +43,19 @@ export default class Map extends Component {
         switch (error.code) {
           case 1:
             if (Platform.OS === "ios") {
-              Alert.alert("", "Para habilitar permisão de acesso a Localizaçào entre em Ajustes - Privacidade - Localização");
+              //Alert.alert("", "Para habilitar permisão de acesso a Localizaçào entre em Ajustes - Privacidade - Localização");
             }
             else {
-              Alert.alert("", "Para habilitar permisão de acesso a Localizaçào entre em Ajustes - Apps - ShareTools - Localização");
+              //Alert.alert("", "Para habilitar permisão de acesso a Localizaçào entre em Ajustes - Apps - ShareTools - Localização");
             }
             break;
           default:
-            Alert.alert("", "Erro ao identificar sua localização");
+          //Alert.alert("", "Erro ao identificar sua localização");
         }
       }, {
         timeout: 20000,
         enableHighAccuracy: true,
-        maximumAge: 1000,
+        //maximumAge: 1000,
       });
     } catch (e) {
       alert(e.message || "");
@@ -113,6 +113,7 @@ export default class Map extends Component {
         //ref={map => { this.map = map }}
         >
         </MapView>
+      </View>
 
 
     );
