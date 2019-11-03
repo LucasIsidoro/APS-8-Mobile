@@ -113,12 +113,10 @@ export default class Map extends Component {
           showsMyLocationButton={true}
         >
 
-
-
           {this.state.places.map(marker => (
             <MapView.Marker
               ref={mark => marker.mark = mark}
-              title={marker.disaster}
+              title={marker.localidade}
               description={marker.description}
               key={marker._id}
               coordinate={{

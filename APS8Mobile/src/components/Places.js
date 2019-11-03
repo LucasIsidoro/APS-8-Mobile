@@ -10,13 +10,7 @@ export default class Places extends Component {
     latitude: '',
     longitude: '',
     disaster: '',
-    description: '',
-    places:[]
-  }
-
-  async componentDidMount() {
-    const response = await api.get('places')
-    this.setState({ places: response.data })
+    description: ''
   }
 
   handleSubmit = async () => {
@@ -37,7 +31,6 @@ export default class Places extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>{this.state.places}</Text>
         <TextInput
           style={styles.input}
           autoCorrect={false}
