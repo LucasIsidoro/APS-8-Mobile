@@ -49,6 +49,7 @@ export default class Places extends Component {
           <Picker.Item label="Alagamento" value="Alagamento" />
           <Picker.Item label="Poluição" value="Poluição" />
           <Picker.Item label="Desmatamento" value="Desmatamento" />
+          <Picker.Item label="Queimada" value="Queimada" />
         </Picker>
         <TextInput
           style={styles.input}
