@@ -25,6 +25,8 @@ export default class Map extends Component {
               <Text>{item.localidade}</Text>
               <Text>{item.latitude}</Text>
               <Text>{item.longitude}</Text>
+              <Text>{item.disaster}</Text>
+              <Text>{item.description}</Text>
             </View>
           )}
         />
