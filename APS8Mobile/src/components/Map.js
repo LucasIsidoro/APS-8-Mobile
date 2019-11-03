@@ -21,7 +21,8 @@ export default class Map extends Component {
       region: null,
       ready: false,
       bottomMargin: 1,
-      places: []
+      places: [],
+      
     };
   }
 
@@ -110,12 +111,27 @@ export default class Map extends Component {
           showsBuildings={false}
           showsPointsOfInterest={false}
           showsMyLocationButton={true}
-        //ref={map => { this.map = map }}
         >
+
+
+
+          {this.state.places.map(marker => (
+            <MapView.Marker
+              ref={mark => marker.mark = mark}
+              title={marker.disaster}
+              description={marker.description}
+              key={marker._id}
+              coordinate={{
+                latitude: marker.latitude,
+                longitude: marker.longitude
+              }}
+            />
+          ))
+          }
+
+
         </MapView>
-      </View>
-
-
+      </View >
     );
   }
 }
