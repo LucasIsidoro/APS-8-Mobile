@@ -1,24 +1,26 @@
+import React from 'react'
 import { createSwitchNavigator, createAppContainer } from 'react-navigation'
 import { createBottomTabNavigator } from 'react-navigation-tabs'
 import { createStackNavigator } from 'react-navigation-stack'
+import Icon from 'react-native-vector-icons/FontAwesome'
 
 import Places from './components/Places'
 import Map from './components/Map'
 import Welcome from './components/Welcome'
 
 const PlacesStack = createStackNavigator({
-   Places:{
+   Places: {
       screen: Places,
-      navigationOptions:{
+      navigationOptions: {
          headerTitle: 'Places'
       }
    }
 })
 
 const MapStack = createStackNavigator({
-   Map:{
+   Map: {
       screen: Map,
-      navigationOptions:{
+      navigationOptions: {
          headerTitle: 'Map'
       }
    }
@@ -26,10 +28,18 @@ const MapStack = createStackNavigator({
 
 const AppBottomNavigator = createBottomTabNavigator({
    Places: {
-      screen: PlacesStack
+      screen: PlacesStack,
+      navigationOptions: ({
+         tabBarIcon: <Icon name='plus-circle' size={22} color="#999" />
+
+      })
    },
    Map: {
-      screen: MapStack
+      screen: MapStack,
+      navigationOptions: ({
+         tabBarIcon: <Icon name='map-marker' size={22} color="#999" />
+
+      })
    }
 })
 
