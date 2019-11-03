@@ -81,7 +81,6 @@ export default class Map extends Component {
     //const { children, renderMarker, markers } = this.props;
 
     return (
-
       <View style={styles.container}>
 
         <MapView
@@ -114,8 +113,6 @@ export default class Map extends Component {
         //ref={map => { this.map = map }}
         >
         </MapView>
-
-      </View>
 
 
     );
