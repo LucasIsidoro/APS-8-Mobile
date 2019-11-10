@@ -116,7 +116,7 @@ export default class Map extends Component {
           {this.state.places.map(marker => (
             <MapView.Marker
               ref={mark => marker.mark = mark}
-              title={marker.localidade}
+              title={marker.disaster}
               description={marker.description}
               key={marker._id}
               coordinate={{
