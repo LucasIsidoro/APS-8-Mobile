@@ -4,6 +4,8 @@ import { View, TextInput, StyleSheet, TouchableOpacity, Text, Picker } from 'rea
 
 import api from '../service/api'
 
+import Search from './search/Search'
+
 export default class Places extends Component {
   state = {
     localidade: '',
@@ -28,6 +30,14 @@ export default class Places extends Component {
     this.props.navigation.navigate('Map')
   }
 
+  handleLocationSelected = (data, { geometry }) => {
+    const { location: { lat: latitude, lng: longitude } } = geometry;
+    this.setState({
+          latitude,
+          longitude
+    })
+ }
+
   render() {
     return (
       <View style={styles.container}>
@@ -51,7 +61,8 @@ export default class Places extends Component {
           <Picker.Item label="Desmatamento" value="Desmatamento" />
           <Picker.Item label="Queimada" value="Queimada" />
         </Picker>
-        <TextInput
+        <Search onLocationSelected={this.handleLocationSelected}/>
+        {/* <TextInput
           style={styles.input}
           autoCorrect={false}
           autoCapitalize='none'
@@ -68,7 +79,7 @@ export default class Places extends Component {
           placeholderTextColor='#999'
           value={this.state.longitude}
           onChangeText={longitude => this.setState({ longitude })}
-        />
+        /> */}
         <TextInput
           style={styles.inputBox}
           autoCorrect={false}
